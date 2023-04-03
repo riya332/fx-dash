@@ -1,0 +1,46 @@
+.controlbar {
+    background-color: #F3CCC9;
+    height: 50px;
+    position: sticky;
+    padding: 10px;
+    top: 0px;
+}
+.select-currency {
+    margin: 8px;
+    width: 320px;
+    height: 30px;
+    float:left;
+}
+
+.control-btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: #1C40D1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.add{
+    float: left;
+}
+
+.delete{
+    float: right;
+}
+
+select{
+    padding:5px
+}
+.errordiv-controlbar{
+    border: 1px solid red;
+    color: red;
+    padding:10px;
+    margin:10px;
+}
+
+.control-btn:disabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666;
+  }

@@ -1,0 +1,27 @@
+.toolbar {
+  padding: 20px;
+  height: 60px;
+}
+
+.sort-btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+  background-color: #E6EEFC;
+  float: left;
+  margin: 10px 10px 0px 0px;
+}
+
+.selected {
+  background-color: #C5FF00;
+}
+
+.sort-btn:hover {background-color: #95BDFF}
+
+.sort-btn:active {
+  background-color: #C5FF00;
+  box-shadow: 0 5px #C5FF00;
+  border: none;
+  transform: translateY(4px);
+}
